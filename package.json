@@ -1,13 +1,16 @@
 {
   "name": "luxon",
-  "version": "3.0.2",
+  "version": "3.0.2-lineaje-01",
   "description": "Immutable date wrapper",
   "author": "Isaac Cambron",
   "keywords": [
     "date",
     "immutable"
   ],
-  "repository": "https://github.com/moment/luxon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineaje-labs-gos/luxon"
+  },
   "exports": {
     ".": {
       "import": "./src/luxon.js",
@@ -80,5 +83,11 @@
     "src"
   ],
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "sideEffects": false
 }
